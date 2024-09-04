@@ -2,6 +2,8 @@
 using System.Threading.Channels;
 
 Baby baby1 = new Baby(); // We create a baby1 object using the default Constructor
+baby1.Name = "Ahmet";
+baby1.Surname = "Yılmaz";
 Console.WriteLine($"{baby1.Name} {baby1.Surname} {baby1.BirthDate.ToString("dd.MM.yyyy HH:mm")}");
 
 
